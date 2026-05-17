@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Expense Tracker</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f5f7ff;
+    color: #1a1a2e;
+    line-height: 1.8;
+    font-size: 15px;
+  }
+
+  header {
+    background: linear-gradient(135deg, #3D5AFE 0%, #0D1B6E 100%);
+    color: white;
+    padding: 48px 24px 36px;
+    text-align: center;
+  }
+  header .logo { font-size: 40px; margin-bottom: 12px; }
+  header h1 { font-size: 28px; font-weight: 800; margin-bottom: 6px; }
+  header p  { font-size: 13px; opacity: 0.75; }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+
+  .last-updated {
+    background: #EEF2FF;
+    border-left: 4px solid #3D5AFE;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 20px;
+    margin-bottom: 36px;
+    font-size: 13px;
+    color: #3D5AFE;
+    font-weight: 600;
+  }
+
+  .intro-box {
+    background: white;
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 16px rgba(61,90,254,0.08);
+    border: 1px solid #E8EAFF;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.9;
+  }
+
+  section {
+    background: white;
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    border: 1px solid #F0F0F0;
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1A237E;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  h2 .icon {
+    background: #EEF2FF;
+    border-radius: 8px;
+    padding: 6px 8px;
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #3D5AFE;
+    margin: 18px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  p { margin-bottom: 12px; color: #444; }
+
+  ul {
+    padding-left: 20px;
+    margin-bottom: 12px;
+  }
+  ul li {
+    margin-bottom: 8px;
+    color: #444;
+  }
+  ul li::marker { color: #3D5AFE; }
+
+  .highlight-box {
+    background: #F0F4FF;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    border-left: 3px solid #3D5AFE;
+    font-size: 14px;
+    color: #1A237E;
+  }
+
+  .green-box {
+    background: #F0FFF4;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 16px 0;
+    border-left: 3px solid #00C853;
+    font-size: 14px;
+    color: #1B5E20;
+  }
+
+  .no-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0;
+  }
+  .no-tag {
+    background: #FFF3F3;
+    border: 1px solid #FFCDD2;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: #C62828;
+    font-weight: 600;
+  }
+
+  .yes-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 12px 0;
+  }
+  .yes-tag {
+    background: #F0FFF4;
+    border: 1px solid #A5D6A7;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: #1B5E20;
+    font-weight: 600;
+  }
+
+  .contact-box {
+    background: linear-gradient(135deg, #3D5AFE 0%, #0D1B6E 100%);
+    border-radius: 16px;
+    padding: 28px;
+    text-align: center;
+    color: white;
+    margin-top: 32px;
+  }
+  .contact-box h2 { color: white; justify-content: center; margin-bottom: 10px; }
+  .contact-box p { color: rgba(255,255,255,0.8); margin: 6px 0; }
+  .contact-box a {
+    color: #82B1FF;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  footer {
+    text-align: center;
+    padding: 24px;
+    font-size: 12px;
+    color: #9FA8DA;
+  }
+
+  @media (max-width: 600px) {
+    header h1 { font-size: 22px; }
+    section { padding: 20px; }
+    .container { padding: 24px 16px 60px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">💰</div>
+  <h1>Privacy Policy</h1>
+  <p>Expense Tracker - Money Manager</p>
+</header>
+
+<div class="container">
+
+  <div class="last-updated">
+    📅 Last Updated: March 29, 2026 &nbsp;·&nbsp; Effective Date: March 29, 2026
+  </div>
+
+  <div class="intro-box">
+    <strong>Your privacy matters to us.</strong> This Privacy Policy explains how
+    <strong>Expense Tracker - Money Manager</strong> ("we", "our", or "the app")
+    collects, uses, stores and protects your information when you use our Android application.
+    <br><br>
+    By downloading or using Expense Tracker, you agree to the practices described in this policy.
+    Please read it carefully. If you do not agree, please do not use the app.
+  </div>
+
+  <!-- 1. Information We Collect -->
+  <section>
+    <h2><span class="icon">📋</span> 1. Information We Collect</h2>
+
+    <h3>A. Information You Provide Directly</h3>
+    <p>When you use Expense Tracker, you voluntarily enter the following financial data:</p>
+    <ul>
+      <li>Expense amounts, categories, notes and dates</li>
+      <li>Income amounts, sources, descriptions and dates</li>
+      <li>Monthly budget amounts</li>
+      <li>Custom expense categories you create</li>
+      <li>Currency preference</li>
+    </ul>
+
+    <h3>B. Account Information (Optional)</h3>
+    <p>If you choose to sign in with Google, we receive:</p>
+    <ul>
+      <li>Your Google account name</li>
+      <li>Your Google email address</li>
+      <li>Your Google User ID (a unique identifier)</li>
+      <li>Your profile picture (display purposes only)</li>
+    </ul>
+    <div class="highlight-box">
+      ℹ️ Google Sign-In is completely optional. You can use the app fully in
+      Guest Mode without providing any personal information.
+    </div>
+
+    <h3>C. Automatically Collected Information</h3>
+    <p>We do not automatically collect device information, location data,
+    IP addresses or usage analytics. The app works with minimal data collection.</p>
+  </section>
+
+  <!-- 2. How We Use Your Information -->
+  <section>
+    <h2><span class="icon">⚙️</span> 2. How We Use Your Information</h2>
+    <p>We use the information you provide solely to operate the app and deliver its features:</p>
+    <ul>
+      <li>Display your expense and income records in the app</li>
+      <li>Calculate budget totals, savings and financial summaries</li>
+      <li>Generate spending insights and charts</li>
+      <li>Sync your data across devices when you sign in with Google</li>
+      <li>Restore your data if you reinstall the app</li>
+      <li>Associate your data with your account (Google User ID)</li>
+    </ul>
+    <div class="green-box">
+      ✅ We use your data only to provide the service you asked for.
+      Nothing else. Ever.
+    </div>
+  </section>
+
+  <!-- 3. What We DO NOT Do -->
+  <section>
+    <h2><span class="icon">🚫</span> 3. What We NEVER Do</h2>
+    <p>We want to be crystal clear about what we do not do with your data:</p>
+    <div class="no-list">
+      <span class="no-tag">✗ No data selling</span>
+      <span class="no-tag">✗ No data sharing</span>
+      <span class="no-tag">✗ No advertising</span>
+      <span class="no-tag">✗ No third-party tracking</span>
+      <span class="no-tag">✗ No analytics profiling</span>
+      <span class="no-tag">✗ No marketing emails</span>
+      <span class="no-tag">✗ No location tracking</span>
+      <span class="no-tag">✗ No behaviour tracking</span>
+    </div>
+    <p>
+      Your financial data is private and personal. We treat it with the
+      highest level of respect and confidentiality. We will never sell,
+      rent, lease or share your personal or financial information with
+      any third party for commercial purposes.
+    </p>
+  </section>
+
+  <!-- 4. Data Storage and Security -->
+  <section>
+    <h2><span class="icon">🔒</span> 4. Data Storage &amp; Security</h2>
+
+    <h3>Local Storage</h3>
+    <p>
+      All your financial data is stored locally on your device using
+      an encrypted SQLite database (Room Database). This data is
+      accessible only by the Expense Tracker app on your device.
+    </p>
+
+    <h3>Cloud Storage (Google Sign-In Only)</h3>
+    <p>
+      If you choose to sign in with Google, your data is backed up to
+      <strong>Google Firebase Firestore</strong> — a secure, encrypted,
+      enterprise-grade cloud database operated by Google LLC.
+    </p>
+    <ul>
+      <li>All data transmitted to Firebase is encrypted in transit (TLS/SSL)</li>
+      <li>Data stored in Firebase is encrypted at rest</li>
+      <li>Firebase complies with ISO 27001, SOC 1, SOC 2, and SOC 3 standards</li>
+      <li>Only your User ID is used to identify your data in the cloud</li>
+      <li>No other user can access your data</li>
+    </ul>
+
+    <h3>Guest Mode Storage</h3>
+    <p>
+      In Guest Mode, all data stays exclusively on your device.
+      Nothing is uploaded to any server. Your data is stored
+      only in your phone's local storage.
+    </p>
+
+    <div class="highlight-box">
+      🔐 We use industry-standard security practices to protect your
+      data. However, no method of electronic transmission or storage
+      is 100% secure. We recommend keeping your device protected
+      with a PIN, pattern or biometric lock.
+    </div>
+  </section>
+
+  <!-- 5. Google Sign-In -->
+  <section>
+    <h2><span class="icon">🔑</span> 5. Google Sign-In &amp; Firebase</h2>
+    <p>
+      Expense Tracker uses Google Sign-In (via Firebase Authentication)
+      as the only account sign-in method. When you sign in with Google:
+    </p>
+    <ul>
+      <li>We receive your name, email and Google User ID from Google</li>
+      <li>We store your User ID in Firebase to link your financial data to your account</li>
+      <li>We display your name and photo inside the app for personalisation</li>
+      <li>We do NOT store your Google password — Google manages authentication entirely</li>
+      <li>You can sign out of the app at any time from the side menu</li>
+    </ul>
+    <p>
+      Google's privacy policy governs how Google handles your account data.
+      You can review it at:
+      <strong>https://policies.google.com/privacy</strong>
+    </p>
+    <p>
+      Firebase's privacy and data processing terms are available at:
+      <strong>https://firebase.google.com/support/privacy</strong>
+    </p>
+  </section>
+
+  <!-- 6. Data Retention -->
+  <section>
+    <h2><span class="icon">🗂️</span> 6. Data Retention</h2>
+    <p>
+      Your data is retained as long as you use the app or maintain your account.
+    </p>
+    <ul>
+      <li>
+        <strong>Local data:</strong> Stored on your device until you uninstall the app
+        or clear the app's data from your phone settings
+      </li>
+      <li>
+        <strong>Cloud data (Google Sign-In):</strong> Retained in Firebase as long as
+        your account is active. If you request deletion, we will permanently
+        delete all your data from our servers within 30 days
+      </li>
+      <li>
+        <strong>Guest data:</strong> Stored only on your device.
+        Deleted automatically when you uninstall the app
+      </li>
+    </ul>
+  </section>
+
+  <!-- 7. Your Rights -->
+  <section>
+    <h2><span class="icon">✅</span> 7. Your Rights &amp; Choices</h2>
+    <p>You have full control over your data at all times:</p>
+
+    <div class="yes-list">
+      <span class="yes-tag">✓ Access your data</span>
+      <span class="yes-tag">✓ Edit your data</span>
+      <span class="yes-tag">✓ Delete your data</span>
+      <span class="yes-tag">✓ Export your data</span>
+      <span class="yes-tag">✓ Use Guest Mode</span>
+      <span class="yes-tag">✓ Sign out anytime</span>
+    </div>
+
+    <h3>How to Delete Your Data</h3>
+    <ul>
+      <li>
+        <strong>Delete all local data:</strong> Go to your phone Settings →
+        Apps → Expense Tracker → Clear Data
+      </li>
+      <li>
+        <strong>Delete cloud data:</strong> Email us at
+        <strong>maha199728@gmail.com</strong> with subject
+        "Delete My Data" and we will permanently delete all your
+        Firebase data within 30 days
+      </li>
+      <li>
+        <strong>Export your data:</strong> Use the Export feature inside
+        the app (Expenses screen → Share icon) to download your data
+        as Excel or TXT at any time
+      </li>
+    </ul>
+  </section>
+
+  <!-- 8. Children's Privacy -->
+  <section>
+    <h2><span class="icon">👶</span> 8. Children's Privacy</h2>
+    <p>
+      Expense Tracker is not directed at children under the age of 13.
+      We do not knowingly collect personal information from children
+      under 13 years of age.
+    </p>
+    <p>
+      If you are a parent or guardian and believe your child has
+      provided us with personal information, please contact us at
+      <strong>maha199728@gmail.com</strong> and we will delete that
+      information promptly.
+    </p>
+  </section>
+
+  <!-- 9. Third Party Services -->
+  <section>
+    <h2><span class="icon">🔗</span> 9. Third-Party Services</h2>
+    <p>Expense Tracker uses the following trusted third-party services:</p>
+    <ul>
+      <li>
+        <strong>Google Firebase Authentication</strong> — Secure sign-in.
+        Privacy policy: https://firebase.google.com/support/privacy
+      </li>
+      <li>
+        <strong>Google Firebase Firestore</strong> — Cloud data storage.
+        Privacy policy: https://firebase.google.com/support/privacy
+      </li>
+      <li>
+        <strong>Google Sign-In</strong> — Account authentication.
+        Privacy policy: https://policies.google.com/privacy
+      </li>
+    </ul>
+    <p>
+      We do not use any advertising SDKs, analytics platforms
+      (such as Google Analytics or Firebase Analytics), crash
+      reporters, or any other third-party tracking tools.
+    </p>
+  </section>
+
+  <!-- 10. Permissions -->
+  <section>
+    <h2><span class="icon">📱</span> 10. App Permissions</h2>
+    <p>Expense Tracker requests only the minimum permissions required:</p>
+    <ul>
+      <li>
+        <strong>INTERNET</strong> — Required for Google Sign-In and
+        Firebase cloud sync. Not used for any other purpose.
+      </li>
+      <li>
+        <strong>No access to Camera</strong> — We never access your camera
+      </li>
+      <li>
+        <strong>No access to Contacts</strong> — We never read your contacts
+      </li>
+      <li>
+        <strong>No access to Location</strong> — We never track your location
+      </li>
+      <li>
+        <strong>No access to SMS or Calls</strong> — We never read messages
+      </li>
+      <li>
+        <strong>No access to Microphone</strong> — We never use your microphone
+      </li>
+    </ul>
+  </section>
+
+  <!-- 11. Changes -->
+  <section>
+    <h2><span class="icon">📝</span> 11. Changes to This Privacy Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time to reflect changes
+      in our app features, legal requirements, or business practices.
+    </p>
+    <p>
+      When we make changes, we will:
+    </p>
+    <ul>
+      <li>Update the "Last Updated" date at the top of this page</li>
+      <li>Notify users through an in-app notification for significant changes</li>
+      <li>Post the updated policy at the same URL</li>
+    </ul>
+    <p>
+      Your continued use of Expense Tracker after any changes
+      constitutes your acceptance of the updated Privacy Policy.
+      We encourage you to review this policy periodically.
+    </p>
+  </section>
+
+  <!-- 12. Governing Law -->
+  <section>
+    <h2><span class="icon">⚖️</span> 12. Governing Law</h2>
+    <p>
+      This Privacy Policy is governed by and construed in accordance
+      with the laws of India. Any disputes relating to this policy
+      shall be subject to the exclusive jurisdiction of the courts
+      of India.
+    </p>
+    <p>
+      For users in the European Union: We comply with the General
+      Data Protection Regulation (GDPR) to the extent applicable.
+      You have the right to access, rectify, erase, and port your
+      personal data. Contact us to exercise these rights.
+    </p>
+    <p>
+      For users in California, USA: We comply with the California
+      Consumer Privacy Act (CCPA) to the extent applicable.
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <div class="contact-box">
+    <h2><span style="font-size:22px">📧</span> Contact Us</h2>
+    <p>Have questions about this Privacy Policy?</p>
+    <p>We are here to help — reach out anytime.</p>
+    <br>
+    <p><strong>App:</strong> Expense Tracker - Money Manager</p>
+    <p><strong>Email:</strong> <a href="mailto:mahalucky28@gmail.com">mahalucky28@gmail.com</a></p>
+    <p><strong>Response time:</strong> Within 48 hours</p>
+    <br>
+    <p style="font-size:13px; opacity:0.7">
+      For data deletion requests, please email with subject:<br>
+      <em>"Delete My Data — Expense Tracker"</em>
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 Expense Tracker - Money Manager. All rights reserved.</p>
+  <p style="margin-top:6px">This Privacy Policy was last updated on March 29, 2026.</p>
+</footer>
+
+</body>
+</html>
